@@ -12,37 +12,38 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   </head>
   <body>     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid, container-lg, container-md, container-sm">
-        <a class="navbar-brand" href="project-home.html">Green Empire Est</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link" href="project-home.html">Home</a></li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="project-all.html">All Products</a></li>      
-                <li><a class="dropdown-item" href="products-plants.html">Plants</a></li>
-                <li><a class="dropdown-item" href="project-brass.html">Others</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="project.new.html">New Arrivals</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kokedama.html">Kokedama Workshop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="project-team.html">Meet the Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="project-contact.html">FAQs</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-bg-light navbar-ges">
+        <div class="container-fluid, container-lg, container-md, container-sm">
+          <a class="navbar-brand text-light" href="#">Green Empire Est</a>
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-bg-dark" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link text-light active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="project-all.html">All Products</a></li>      
+                  <li><a class="dropdown-item" href="products-plants.html">Plants</a></li>
+                  <li><a class="dropdown-item" href="project-brass.html">Others</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="project.new.html">New Arrivals</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="kokedama.html">Kokedama Workshop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="project-team.html">Meet the Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="project-contact.html">FAQs</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     
 
     <div id="products">
@@ -1023,6 +1024,25 @@
           </div>
         </div>
       </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
 <!----FOOTER---->
       <div class="footer">
         <div class="footer-1">

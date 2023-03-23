@@ -1408,6 +1408,8 @@
           </div>
         </div>
       </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      
 
 
   <div class="footer">
@@ -1433,6 +1435,24 @@
       <a href="#" class="fa fa-youtube"></a>
     </div>
   </div>
+  <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>

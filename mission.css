@@ -12,19 +12,25 @@
   box-sizing: border-box;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background-color: var(--light);
+	background-color: #032607;
+  color: white;
 	column-gap: 30px;
 	padding: 30px;
 	margin-top: 40px;
+  font-size: 18px;
 }
 .footer-1 p, h5, h6{
   text-align: center;
 }
 .footer-2 {
+  color: white;
+
 	padding-left: 80px;
 	color: black;
 }
 .footer-3 {
+  color: white;
+
 	padding-left: 80px;
 }
 .footer-2 h5{
@@ -63,32 +69,32 @@
   color: white;
 }
 .footer-2 a:link {
-  color: black;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
 .footer-2 a:hover {
-  color: var(--brown);
+  color: white;
   background-color: transparent;
   text-decoration: underline;
 }
 .footer-3 a:link {
-	color: black;
+  color: white;
 	background-color: var(--brown); 
 	text-decoration: none;
 }
 .footer-3 a:hover {
-  color: grey;
+  color: white;
   background-color: var(--brown);
   text-decoration: underline;
 }
 .footer-3 a:visited {
-  color: black;
+  color: white;
   background-color: var(--brown);
   text-decoration: underline;
 }
 .footer-2 a:visited {
-  color: black;
+  color: white;
   background-color: var(--brown);
   text-decoration: underline;
 }
@@ -109,6 +115,10 @@ h4{
 }
 .navbar-ges{
   background-color: #032607;
+}
+.footer h5 {
+    color: white;
+
 }
 
 
