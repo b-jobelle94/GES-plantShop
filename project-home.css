@@ -73,9 +73,12 @@ button a:visited {
   text-decoration-line: none;
 }
 .mission {
-  background-color: var(--brown);
+  background-color: #032607;
   padding-left: 10px;
   padding-top: 50px;
   color: white;
   font-size: 18px;
+}
+.navbar-ges{
+  background-color: var(--brown);
 }
