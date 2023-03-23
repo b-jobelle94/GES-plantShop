@@ -1,0 +1,23 @@
+
+#products img{
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#products .detail {
+	text-align: center;
+	padding:0px;
+}
+#products .card {
+	padding:10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#products .row {
+	padding-top: 50px;
+}
+
+#products p {
+	font-size: 18px;
+}

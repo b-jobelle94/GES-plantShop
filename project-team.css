@@ -1,0 +1,51 @@
+:root {
+  --platinum: #e5e5e5;
+  --black: #2b2d42;
+  --white: #fff;
+  --thumb: #edf2f4;
+  --brown: #3d3131;
+}
+
+.fave {
+  padding-top: 40px;
+}
+p {
+  font-size: 18px;
+}
+h2 {
+  text-align: center;
+}
+.card img{
+  height: 250px;
+}
+.row-1 {
+  height: 50%;
+}
+.darlene {
+  height: 950px;
+}
+
+
+.image {
+  background-image: url(284015208_1048821655728221_4946386722294438227_n.jpg);
+  height: 700px;
+  padding-top: 19%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.image .image-content {
+  background:rgb(0,0,0);
+  background:rgba(0,0,0,0.5);
+  color: white;
+  padding: 10px;
+}
+#team {
+  background-color: #3d3131;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.teamphoto {
+  height: 850px;
+  }

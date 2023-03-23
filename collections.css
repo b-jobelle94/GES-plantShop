@@ -1,0 +1,15 @@
+#collections img{
+	height: 350px;
+	width: 100%;
+
+}
+img {
+	height: 300px;
+}
+.container-fluid {
+	padding-top: 50px;
+}
+#collections {
+	margin: 30px;
+	border-top: 2px solid var(--brown);
+}

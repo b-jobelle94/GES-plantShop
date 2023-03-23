@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.row img {
+  height: 650px;
+  padding-bottom: 50px;
+}
+body {
+  font: 16px / 24px "Rubik", sans-serif;
+  color:black;
+  background: white;
+  margin: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+#products .row {
+height: 500px;
+overflow-y: scroll;
+row-gap: 10px;
+margin-bottom: 50px;
+}
+#products img{
+  height: 300px;
+
+}
+#products .row::-webkit-scrollbar {
+  height: 12px;
+}
+
+#products .row::-webkit-scrollbar-thumb,
+#products .row::-webkit-scrollbar-track {
+  border-radius: 92px;
+}
+
+#products .row::-webkit-scrollbar-thumb {
+  background: var(--brown);
+}
+
+#products .row::-webkit-scrollbar-track {
+  background: var(--thumb);
+}
+button {
+  
+  color: white;
+  background-color: var(--brown);
+}
+button a:link {
+  color: white;
+  background-color: var(--brown);
+}
+button a:hover {
+  color: white
+  background-color: var(--brown);
+  text-decoration-line: none;
+}
+button a:visited {
+  color: white;
+  background-color: var(--brown);
+  text-decoration-line: none;
+}
+.mission {
+  background-color: var(--brown);
+  padding-left: 10px;
+  padding-top: 50px;
+  color: white;
+  font-size: 18px;
+}

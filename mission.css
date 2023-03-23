@@ -1,0 +1,112 @@
+:root {
+  --platinum: #e5e5e5;
+  --black: #2b2d42;
+  --white: #fff;
+  --thumb: #edf2f4;
+  --brown: #3d3131;
+}
+
+
+.footer {
+  box-sizing: border-box;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: #ded7cd;
+	column-gap: 30px;
+	padding: 30px;
+	margin-top: 40px;
+}
+.footer-1 p, h5, h6{
+  text-align: center;
+}
+.footer-2 {
+	padding-left: 80px;
+	color: black;
+}
+.footer-3 {
+	padding-left: 80px;
+}
+.footer-2 h5{
+  text-align: left;
+}
+.footer-3 h5{
+  text-align: left;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: var(--brown);
+  color: white;
+}
+.fa-instagram {
+  background: var(--brown);
+  color: white;
+}
+.fa-skype {
+  background: var(--brown);
+  color: white;
+}
+.fa-youtube {
+  background: var(--brown);
+  color: white;
+}
+.footer-2 a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.footer-2 a:hover {
+  color: var(--brown);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.footer-3 a:link {
+	color: black;
+	background-color: var(--brown); 
+	text-decoration: none;
+}
+.footer-3 a:hover {
+  color: grey;
+  background-color: var(--brown);
+  text-decoration: underline;
+}
+.footer-3 a:visited {
+  color: black;
+  background-color: var(--brown);
+  text-decoration: underline;
+}
+.footer-2 a:visited {
+  color: black;
+  background-color: var(--brown);
+  text-decoration: underline;
+}
+h4{
+	text-align: center;
+}
+
+.home_header {
+  margin-bottom: 50px;
+}
+.navbar {
+  font-size: 16px;
+  color: black;
+}
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+
+

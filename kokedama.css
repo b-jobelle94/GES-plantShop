@@ -1,0 +1,42 @@
+.row img {
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.form-2 {
+  border: 2px solid #d4c5b0;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+h2{
+  text-align: center;
+}
+.col-sm-9 img {
+  height: 800px;
+}
+.col-sm-3 form{
+  background-color: var(--brown);
+  padding: 50px;
+  color: white;
+  height: 800px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.image {
+  background-image: url(283964290_1048821659061554_5816304634438941134_n.jpg);
+  height: 700px;
+  padding-top: 20%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.image .image-content {
+  background:rgb(0,0,0);
+  background:rgba(0,0,0,0.5);
+  color: white;
+}
+.footer p, a:link {
+  font-weight: 100;
+}
