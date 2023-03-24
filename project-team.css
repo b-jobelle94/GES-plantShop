@@ -49,3 +49,27 @@ h2 {
 .teamphoto {
   height: 850px;
   }
+  @media screen and (max-width: 500px) {
+  .row img {
+    height: 500px;
+  }
+  .navbar .navbar-brand {
+    font-size: 22px;
+  }
+  p {
+    font-size: 16px;
+  }
+  body {
+    max-width: 100%;
+  }
+  .image {
+    margin-bottom: 5px;
+    height: 200px;
+  }
+  #fave {
+    padding-top: 0px;
+  }
+  .row {
+    padding: 5px;
+  }
+}

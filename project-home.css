@@ -22,11 +22,6 @@ body {
   padding: 0 15px;
 }
 
-h2 {
-  font-size: 32px;
-  margin-bottom: 1em;
-}
-
 #products .row {
 height: 500px;
 overflow-y: scroll;
@@ -73,9 +68,34 @@ button a:visited {
   text-decoration-line: none;
 }
 .mission {
-  background-color: #032607;
+  background-color: #ded7cd;
   padding-left: 10px;
   padding-top: 50px;
-  color: white;
+  color: var(--brown);
   font-size: 18px;
+}
+.navbar {
+  font-size: 16px;
+  color: black;
+}
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 500;
+}
+.navbar-ges{
+  background-color: #032607;
+}
+@media screen and (max-width: 500px) {
+  .row img {
+    height: 500px;
+  }
+  .navbar .navbar-brand {
+    font-size: 22px;
+  }
+  p {
+    font-size: 18px;
+  }
+  body {
+    max-width: 100%;
+  }
 }

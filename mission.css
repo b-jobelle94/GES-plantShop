@@ -4,13 +4,14 @@
   --white: #fff;
   --thumb: #edf2f4;
   --brown: #3d3131;
-  --light: #ded7cd;
 }
 
-
+h4, h5, p {
+  text-align: center;
+}
 .footer {
   box-sizing: border-box;
-	display: grid;
+  display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	background-color: #032607;
   color: white;
@@ -19,25 +20,32 @@
 	margin-top: 40px;
   font-size: 18px;
 }
-.footer-1 p, h5, h6{
-  text-align: center;
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  .footer {
+    font-size: 16px;
+ }
 }
 .footer-2 {
+  border-left: 2px solid grey;
   color: white;
-
-	padding-left: 80px;
+	padding-left: 10px;
 	color: black;
 }
 .footer-3 {
   color: white;
-
-	padding-left: 80px;
+  border-left: 2px solid grey;
+	padding-left: 10px;
 }
 .footer-2 h5{
   text-align: left;
+  
 }
 .footer-3 h5{
   text-align: left;
+
 }
 
 .fa {
