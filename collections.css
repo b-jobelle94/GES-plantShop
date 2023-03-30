@@ -13,6 +13,9 @@ img {
 	margin: 30px;
 	border-top: 2px solid var(--brown);
 }
+h6 {
+	text-align: center;
+}
 #myBtn {
   display: none;
   position: fixed;
