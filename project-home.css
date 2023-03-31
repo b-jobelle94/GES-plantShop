@@ -99,3 +99,6 @@ button a:visited {
     max-width: 100%;
   }
 }
+.mission p{
+  color: var(--brown);
+}
