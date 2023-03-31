@@ -128,16 +128,6 @@ h4{
     color: white;
 
 }
-@media screen and (prefers-color-scheme: dark) {
-  p {
-    color: #fff;
-  }
-  .navbar-ges{
-  height: 70px;
-  background-color: white;
-  color: #374736;
-}
-}
 
 
 
