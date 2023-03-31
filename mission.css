@@ -13,7 +13,7 @@ h4, h5, p {
   box-sizing: border-box;
   display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background-color: #032607;
+	background-color: #374736;
   color: white;
 	column-gap: 30px;
 	padding: 30px;
@@ -122,12 +122,14 @@ h4{
   font-weight: 500;
 }
 .navbar-ges{
-  background-color: #032607;
+  height: 70px;
+  background-color: #374736;
 }
 .footer h5 {
     color: white;
 
 }
+
 
 
 
