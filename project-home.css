@@ -74,17 +74,7 @@ button a:visited {
   color: var(--brown);
   font-size: 18px;
 }
-.navbar {
-  font-size: 16px;
-  color: black;
-}
-.navbar .navbar-brand {
-  font-size: 25px;
-  font-weight: 500;
-}
-.navbar-ges{
-  background-color: #032607;
-}
+
 @media screen and (max-width: 500px) {
   .row img {
     height: 500px;
