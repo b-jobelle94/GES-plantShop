@@ -102,7 +102,7 @@ input[type=submit]:hover {
     grid-template-columns: repeat(1, 100%);
   }
   #fname, #lname, #subject, #country{
-  width: 100%;
+  width: 40%;
 }
 }
 .content-1 {
